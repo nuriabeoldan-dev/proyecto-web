@@ -41,3 +41,13 @@ nav ul li a {
 	height: auto;
 	border: 1px solid #ccc;
 }
+body {
+  margin: 40px; /* separa todo el contenido del borde de la ventana */
+  background-color: #f5f5f5; /* color de fondo opcional */
+}
+.mi-iframe {
+  margin: 20px;         /* espacio alrededor del iframe */
+  border-radius: 12px;  /* esquinas redondeadas (opcional) */
+  border: none;         /* elimina el borde azul/negro por defecto */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* sombra opcional */
+}
