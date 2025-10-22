@@ -1,2 +1,43 @@
 @import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
 @import url("style.css");
+header {
+	background: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li {
+	margin-right: 1rem;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #333;
+}
+.analysis-text {
+	columns: 1;
+	column-gap: 2rem;
+}
+@media (min-width: 800px) {
+	.analysis-text {
+		columns: 2;
+	}
+}
+.screenshots {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 1rem;
+}
+.screenshots img {
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+}
