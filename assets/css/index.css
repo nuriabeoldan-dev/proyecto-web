@@ -3,11 +3,19 @@
 header {
 	background: #fff;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	border-radius: 12px;
+}
+h1 {
+	text-align: center;
 }
 nav {
 	position: sticky;
 	top: 0;
 	z-index: 1000;
+	display: flex;                
+  	justify-content: center;      
+  	align-items: center;
 }
 nav ul {
 	list-style: none;
@@ -35,11 +43,14 @@ nav ul li a {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	gap: 1rem;
+	justify-content: center;      
+  	align-items: center;
 }
 .screenshots img {
 	width: 100%;
 	height: auto;
 	border: 1px solid #ccc;
+	margin: 20px;
 }
 body {
   margin: 40px; /* separa todo el contenido del borde de la ventana */
@@ -50,4 +61,27 @@ body {
   border-radius: 12px;  /* esquinas redondeadas (opcional) */
   border: none;         /* elimina el borde azul/negro por defecto */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* sombra opcional */
+}
+li{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	line-height: 1,6;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+strong{
+	font-weight: bold;
+}
+ul{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	line-height: 1,6;
+}
+.conclusion{
+	font-style: italic;
+}
+img{
+	
 }
